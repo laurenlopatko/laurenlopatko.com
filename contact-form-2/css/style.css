@@ -1,4 +1,4 @@
-/* -------------------------------- 
+/* --------------------------------
 
 Primary style
 
@@ -25,7 +25,7 @@ a {
   text-decoration: none;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Form
 
@@ -278,6 +278,16 @@ Form
 .cd-form .error {
   border-color: #e94b35 !important;
 }
+.cd-form .success-message p {
+  background: green;
+  color: #ffffff;
+  font-size: 1.4rem;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border-radius: .25em;
+  padding: 16px;
+}
 @media only screen and (min-width: 600px) {
   .cd-form div {
     /* form element wrapper */
@@ -331,7 +341,7 @@ Form
     transform: scale(0.8);
   }
 }
-/* -------------------------------- 
+/* --------------------------------
 
 Custom icons
 
@@ -367,9 +377,9 @@ Custom icons
   background: url("../img/cd-icon-message.svg") no-repeat 16px 16px, url("../img/cd-required.svg") no-repeat top right;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-FLoating labels 
+FLoating labels
 
 -------------------------------- */
 .js .floating-labels div {

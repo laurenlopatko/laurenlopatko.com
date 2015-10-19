@@ -1,4 +1,4 @@
-#about {
+#projects {
 
 font-size: 18px;  
 text-transform: uppercase;
@@ -10,20 +10,12 @@ text-decoration: underline;
 }
 
 
-
-#pinterest {
-
-top: 300px;
-right: 10px;
-
-}
-
 /*media queries for TABLET and mobile SIZE*/
 
 @media only screen and (max-width: 900px) {
 
 
-#about {
+#projects {
 
 font-size: 13px;  
 text-transform: uppercase;
@@ -31,13 +23,6 @@ color: #9ea3b6;
 padding: 10px;
 margin-left: 20px;
 text-decoration: underline;
-
-}
-
-
-
-#pinterest {
-display: none;
 
 }
 

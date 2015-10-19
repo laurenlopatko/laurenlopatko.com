@@ -1,0 +1,53 @@
+{% extends "layout.twig.html" %}
+{% if form is defined %}
+	{% form_theme form 'form_fields.twig.html' %}
+{% endif %}
+
+{% block head %}
+  <link rel="stylesheet" type="text/css" href="css/form.css">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+{% endblock %}
+
+{% block content %}
+	<div class="form-wrapper">
+
+  {% if sent %}
+    <div class="success-message">
+      <p>Thanks! I'll be in touch shortly.</p>
+    </div>
+  {% endif %}
+
+	<h2 class="form-header">Let's work together</h2>
+
+  {{ form(form, {'action': path('contact'), 'method': 'POST', 'attr': {'class': 'cd-form floating-labels'}}) }}
+
+</div>
+{% endblock %}
+
+{% block footer %}
+<script>
+$(function() {
+  $( '<div id="slider-range"></div>' ).insertBefore( "#form_budget" );
+  var initRegex = /\$(\d*) - \$(\d*)\+/;
+  var values = initRegex.exec($( "#form_budget" ).val());
+  if(values) {
+    values = [parseInt(values[1]), parseInt(values[2])];
+  } else {
+    values = [2500, 7500];
+  }
+  $( "#slider-range" ).slider({
+    range: true,
+    min: 0,
+    max: 10000,
+    values: values,
+    step: 100,
+    slide: function( event, ui ) {
+      $( "#form_budget" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] + '+');
+    }
+  });
+  $( "#form_budget" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
+      " - $" + $( "#slider-range" ).slider( "values", 1 ) + '+');
+});
+</script>
+{% endblock %}

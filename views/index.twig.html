@@ -5,12 +5,14 @@
 {% endblock %}
 
 {% block content %}
-  <a href="{{ path('projects') }}">
-    <ul class="rslides">
-      <li><img src="img/mi3dp2.png" alt=""></li>
-      <li><img src="img/sukin.png" alt=""></li>
-    </ul>
-  </a>
+  <div class="slide-wrapper">
+    <a href="{{ path('projects') }}">
+      <ul class="rslides">
+        <li><img src="img/mi3dp2.png" alt=""></li>
+        <li><img src="img/sukin.png" alt=""></li>
+      </ul>
+    </a>
+  </div>
 {% endblock %}
 
 {% block footer %}
@@ -20,4 +22,3 @@
     });
   </script>
 {% endblock %}
-

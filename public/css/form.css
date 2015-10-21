@@ -18,26 +18,6 @@ body {
   background-color: #ffffff;
 }
 
-header {
-  position: relative;
-  height: 150px;
-  padding-top: 100px;
-}
-header h1 {
-  text-align: center;
-  font-size: 2.4rem;
-  font-weight: 300;
-}
-@media only screen and (min-width: 600px) {
-  header {
-    height: 180px;
-    padding-top: 120px;
-  }
-  header h1 {
-    font-size: 3.6rem;
-  }
-}
-
 /* --------------------------------
 
 xnugget info
@@ -306,7 +286,7 @@ Form
 .form-wrapper {
   width: 90%;
   max-width: 600px;
-  margin: 0 auto 4em auto;
+  margin: 4em auto;
 }
 
 h2.form-header {
@@ -575,6 +555,7 @@ h2.form-header {
   -moz-osx-font-smoothing: grayscale;
   border-radius: .25em;
   padding: 16px;
+  margin-bottom: 2rem;
 }
 @media only screen and (min-width: 600px) {
   .cd-form div:not(.ui-slider-range) {

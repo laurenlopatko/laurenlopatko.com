@@ -31,7 +31,6 @@ body {
 }
 
 .ps-container .ps-slidewrapper {
-	z-index: 10000;
 	position: absolute;
 	top: 270px;
 	width: 200px;

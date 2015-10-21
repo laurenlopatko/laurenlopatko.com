@@ -34,16 +34,11 @@
       888    888 8888888888 d88P     888 8888888P"  8888888888 888   88b
     -->
     <header>
-      <div id="top">
-        <!-- top menu-->
-        <!--logo -->
-        <a href="{{ path('home') }}" class="home-link"><img class="logo" src="img/laurenlopatko.png"></a>
-        <div class="menu">
-          <a class="menulink{% if active == 'about' %} active{% endif %}" href="{{ path('about') }}" id="about">about</a>
-          <a class="menulink{% if active == 'projects' %} active{% endif %}" href="{{ path('projects') }}" id="projects">projects</a>
-          <a class="menulink{% if active == 'contact' %} active{% endif %}" href="{{ path('contact') }}">contact</a>
-          <!--<a class="menulink" id="linkbox" href="worktogether.html">let's work together</a> -->
-        </div>
+      <a href="{{ path('home') }}" class="home-link"><img class="logo" src="img/laurenlopatko.png"></a>
+      <div class="menu">
+        <a class="menulink{% if active == 'about' %} active{% endif %}" href="{{ path('about') }}" id="about">about</a>
+        <a class="menulink{% if active == 'projects' %} active{% endif %}" href="{{ path('projects') }}" id="projects">projects</a>
+        <a class="menulink contact{% if active == 'contact' %} active{% endif %}" href="{{ path('contact') }}">contact</a>
       </div>
     </header>
     <!--

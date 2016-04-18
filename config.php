@@ -25,21 +25,21 @@
     ),
 
     // Contact form destination email
-    'sendTo'      => 'me@andrewsking.com',
+    'sendTo'      => 'hello@laurenlopatko.com.au',
 
     // Projects page items
     'projects'    => array(
       array(
         'title'       => 'mi3DP',
         'description' => 'Branding Development of an icon and logotype as well as a family of sub brand graphics to accompany the company logo and icon for a startup I was involved in.',
-        'link'        => 'https://www.behance.net/gallery/24946671/mi3DP">',
+        'link'        => 'https://www.behance.net/gallery/24946671/mi3DP',
         'link_text'   => 'See more on Behance',
         'image'       => 'img/mi3dp.png'
       ),
       array(
         'title'       => 'Mellow Minds',
         'description' => 'This pack was designed for a brief surrounding the idea of an existing Museum Victoria exhibition. I chose the exhibition on The Mind and circulated it around managing anxiety. The brief asked us to design the contents and graphics on an existing pack template.',
-        'link'        => 'https://www.behance.net/gallery/24946671/mi3DP',
+        'link'        => 'https://www.behance.net/gallery/21925379/Mellow-Mind',
         'link_text'   => 'See more on Behance',
         'image'       => 'img/mellow.png'
       ),

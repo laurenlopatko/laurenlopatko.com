@@ -30,6 +30,8 @@ $app->register(new Silex\Provider\SwiftmailerServiceProvider());
 /* SMTP email settings */
 $app['swiftmailer.options'] = $CONFIG['smtp'];
 
+var_dump($CONFIG['smtp']);exit;
+
 $app->before(function ($request) use ($app) {
   $app['twig']->addGlobal('active', $request->get("_route"));
 });

@@ -1,23 +1,21 @@
 <?php
 
-  var_dump($_ENV);exit;
-
   $CONFIG = array(
     // Turn on when in development
     'debug'       => false,
 
     'smtp'        => array(
       // SMTP host server
-      'host'        => 'smtp.gmail.com',
+      'host'        => $_ENV['MAILGUN_SMTP_SERVER'],
 
       // SMTP port
-      'port'        => 465,
+      'port'        => $_ENV['MAILGUN_SMTP_PORT'],
 
       // SMTP username
-      'username'    => 'you@email.com',
+      'username'    => $_ENV['MAILGUN_SMTP_LOGIN'],
 
       // SMTP password
-      'password'    => 'password',
+      'password'    => $_ENV['MAILGUN_SMTP_PASSWORD'],
 
       // SMTP encryption
       'encryption'  => 'ssl',

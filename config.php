@@ -1,6 +1,6 @@
 <?php
 
-  var_dump($ENV);exit;
+  var_dump($_ENV);exit;
 
   $CONFIG = array(
     // Turn on when in development

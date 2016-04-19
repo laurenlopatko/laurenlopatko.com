@@ -1,5 +1,7 @@
 <?php
 
+  var_dump($ENV);exit;
+
   $CONFIG = array(
     // Turn on when in development
     'debug'       => false,
@@ -25,7 +27,7 @@
     ),
 
     // Contact form destination email
-    'sendTo'      => 'you@email.com',
+    'sendTo'      => 'vl.lapikov@gmail.com',
 
     // Projects page items
     'projects'    => array(

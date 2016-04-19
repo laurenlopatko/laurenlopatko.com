@@ -21,7 +21,7 @@
       'encryption'  => 'ssl',
 
       // SMTP auth mode
-      'auth_mode'   => 'login'
+      'auth_mode'   => 'plain'
     ),
 
     // Contact form destination email

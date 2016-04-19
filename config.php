@@ -18,7 +18,7 @@
       'password'    => $_ENV['MAILGUN_SMTP_PASSWORD'],
 
       // SMTP encryption
-      'encryption'  => 'ssl',
+      'encryption'  => 'tls',
 
       // SMTP auth mode
       'auth_mode'   => 'plain'

@@ -108,10 +108,7 @@ $app->match('/contact', function(Request $request) use ($app, $CONFIG) {
     		->setTo(array($CONFIG['sendTo']))
     		->setBody($messageBody, 'text/html');
 
-    var_dump($app['mailer']);
-    var_dump($app['mailer']->send($message));
-    exit;
-//    $app['mailer']->send($message);
+    $app['mailer']->send($message);
     $sent = true;
   } else {
     // Display dirty form

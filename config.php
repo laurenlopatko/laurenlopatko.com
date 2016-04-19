@@ -25,7 +25,7 @@
     ),
 
     // Contact form destination email
-    'sendTo'      => 'vl.lapikov@gmail.com',
+    'sendTo'      => 'me@andrewsking.com',
 
     // Projects page items
     'projects'    => array(

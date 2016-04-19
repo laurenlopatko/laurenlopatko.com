@@ -1,7 +1,5 @@
 <?php
 
-  var_dump($_ENV);exit;
-
   $CONFIG = array(
     // Turn on when in development
     'debug'       => false,

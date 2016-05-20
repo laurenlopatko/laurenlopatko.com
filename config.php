@@ -29,7 +29,6 @@
 
     // Projects page items
     'projects'    => array(
-      array(
         'title'       => 'Illustration work',
         'description' => 'Vector illustrations for various projects',
         'link'        => 'https://www.behance.net/gallery/28170855/Iconic-Buildings',

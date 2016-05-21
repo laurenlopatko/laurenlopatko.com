@@ -1,40 +1,31 @@
 <?php
-
   $CONFIG = array(
     // Turn on when in development
     'debug'       => false,
-
     'smtp'        => array(
       // SMTP host server
       'host'        => $_ENV['MAILGUN_SMTP_SERVER'],
-
       // SMTP port
       'port'        => $_ENV['MAILGUN_SMTP_PORT'],
-
       // SMTP username
       'username'    => $_ENV['MAILGUN_SMTP_LOGIN'],
-
       // SMTP password
       'password'    => $_ENV['MAILGUN_SMTP_PASSWORD'],
-
       // SMTP encryption
       'encryption'  => 'tls',
-
       // SMTP auth mode
       'auth_mode'   => 'plain'
     ),
-
     // Contact form destination email
     'sendTo'      => 'hello@laurenlopatko.com.au',
-
     // Projects page items
     'projects'    => array(
       array(
-        'title'       => 'Illustration work',
-        'description' => 'Various illustration work',
-        'link'        => 'https://www.behance.net/gallery/28170855/Iconic-Buildings',
+        'title'       => 'mi3DP',
+        'description' => 'Branding Development of an icon and logotype as well as a family of sub brand graphics to accompany the company logo and icon for a startup I was involved in.',
+        'link'        => 'https://www.behance.net/gallery/24946671/mi3DP',
         'link_text'   => 'See more on Behance',
-        'image'       => 'img/building.png'
+        'image'       => 'img/mi3dp.png'
       ),
       array(
         'title'       => 'Mellow Minds',

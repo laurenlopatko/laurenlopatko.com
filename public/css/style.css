@@ -482,9 +482,8 @@ header .home-link {
 
 .menulink.active.contact,
 .menulink.contact:hover {
-	background: pink;
+	background: #bcbec0;
 	padding: 9px;
-	border: 1px solid #9ea3b6;
 	color: white;
 }
 

@@ -29,18 +29,12 @@
 
     // Projects page items
     'projects'    => array(
+      array(
         'title'       => 'Illustration work',
-        'description' => 'Vector illustrations for various projects',
+        'description' => 'Various illustration work',
         'link'        => 'https://www.behance.net/gallery/28170855/Iconic-Buildings',
         'link_text'   => 'See more on Behance',
         'image'       => 'img/building.png'
-      ),
-      array(
-        'title'       => 'mi3DP',
-        'description' => 'Branding Development of an icon and logotype as well as a family of sub brand graphics to accompany the company logo and icon for a startup I was involved in.',
-        'link'        => 'https://www.behance.net/gallery/24946671/mi3DP',
-        'link_text'   => 'See more on Behance',
-        'image'       => 'img/mi3dp.png'
       ),
       array(
         'title'       => 'Mellow Minds',
@@ -49,12 +43,12 @@
         'link_text'   => 'See more on Behance',
         'image'       => 'img/mellow.png'
       ),
-            array(
-        'title'       => 'Illustration work',
-        'description' => 'Vector illustrations for various projects',
-        'link'        => 'https://www.behance.net/gallery/30221187/Bike-illustrations',
+      array(
+        'title'       => "Ralph's",
+        'description' => 'Re-brand Development of an icon and logotype as well as a family to accompany the brand image. The family consisted of a literal ‘family’ of other main figureheads of this real-life family-owned butcher in South Melbourne. These were then applied to promotional materials such as stationery and branded merchandise.',
+        'link'        => 'https://www.behance.net/gallery/21925305/Ralphs-Meat-Company-Re-Brand',
         'link_text'   => 'See more on Behance',
-        'image'       => 'img/bike.png'
+        'image'       => 'img/ralphs.png'
       ),
       array(
         'title'       => 'App Interface',
@@ -79,5 +73,4 @@
       )
     )
   );
-
 ?>

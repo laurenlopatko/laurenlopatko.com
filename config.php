@@ -42,6 +42,13 @@
         'image'       => 'img/mellow.png'
       ),
       array(
+        'title'       => 'Power Parcel vector illustrations',
+        'description' => 'Power Parcel is a quarterly box of social good, designed to help you discover emerging social enterprises and change instigators. Check it out on powerparcel.com.au',
+        'link'        => 'https://www.behance.net/gallery/21925379/Mellow-Mind',
+        'link_text'   => 'See more on Behance',
+        'image'       => 'img/powerparcel.png'
+      ),
+      array(
         'title'       => "Ralph's branding",
         'description' => 'Re-brand Development of an icon and logotype as well as a family to accompany the brand image. The family consisted of a literal ‘family’ of other main figureheads of this real-life family-owned butcher in South Melbourne. These were then applied to promotional materials such as stationery and branded merchandise.',
         'link'        => 'https://www.behance.net/gallery/21925305/Ralphs-Meat-Company-Re-Brand',

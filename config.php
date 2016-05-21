@@ -21,6 +21,13 @@
     // Projects page items
     'projects'    => array(
       array(
+        'title'       => 'Illustration work',
+        'description' => 'Various digital vectors',
+        'link'        => 'https://www.behance.net/gallery/28170855/Iconic-Buildings',
+        'link_text'   => 'See more on Behance',
+        'image'       => 'img/building.png'
+      ),
+      array(
         'title'       => 'mi3DP',
         'description' => 'Branding Development of an icon and logotype as well as a family of sub brand graphics to accompany the company logo and icon for a startup I was involved in.',
         'link'        => 'https://www.behance.net/gallery/24946671/mi3DP',

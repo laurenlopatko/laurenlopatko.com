@@ -37,7 +37,7 @@
       array(
         'title'       => 'Power Parcel',
         'description' => 'Power Parcel is a quarterly box of social good, designed to help you discover emerging social enterprises and change instigators. Check it out on powerparcel.com.au',
-        'link'        => 'https://www.behance.net/gallery/21925379/Mellow-Mind',
+        'link'        => 'https://www.behance.net/gallery/37461747/Power-Parcel?',
         'link_text'   => 'See more on Behance',
         'image'       => 'img/powerparcel.png'
       ),
@@ -49,11 +49,11 @@
         'image'       => 'img/storio.png'
       ),
       array(
-        'title'       => 'Sukin',
-        'description' => 'A socially responsible campaign to further align Sukin’s brand image through the simplicity of caring - whether it be the purpose of the product of skin ‘care’, or the fact they simply align themselves as an environmentally (and socially) conscious brand.',
-        'link'        => 'https://www.behance.net/gallery/24953163/Sukin-We-Give-Back',
+        'title'       => 'Weather App Interface',
+        'description' => 'University project at Swinburne University, 2014. We were to create a realistic and believable interface  design for a hypothetical app that was to be as user friendly as possible. It needed to contain obvious tap points as well as obvious navigation tools.',
+        'link'        => 'https://www.behance.net/gallery/16882331/Weather-App-Interface-Design',
         'link_text'   => 'See more on Behance',
-        'image'       => 'img/sukin.png'
+        'image'       => 'img/weather.png'
       )
     )
   );

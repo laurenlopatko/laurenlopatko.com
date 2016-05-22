@@ -53,7 +53,7 @@
         'description' => 'As part of my 100 day project as seen on instagram.com/laurenlopatko, I found myself not only travelling to places coincedentally all with the letter H, but also finding myself incredibly inspired to make some quality designs.',
         'link'        => 'https://www.behance.net/gallery/37468347/Asian-travel-series-the-letter-H?',
         'link_text'   => 'See more on Behance',
-        'image'       => 'img/ramen.png'
+        'image'       => 'img/day42HANOIcover.png'
       ),
       array(
         'title'       => 'Weather App Interface',

@@ -49,6 +49,20 @@
         'image'       => 'img/storio.png'
       ),
       array(
+        'title'       => 'Startup Lab - web design',
+        'description' => 'Startup Lab standardises the process for entrepreneurs to create & build their business ideas. I worked on creating an identity that reflected this and the client's needs to put forward his ideas through simplistic but engaging design.',
+        'link'        => 'https://www.behance.net/gallery/38063921/Startup-Lab-logo-website-and-illustrations',
+        'link_text'   => 'See more on Behance',
+        'image'       => 'img/startup.png'
+      ),
+      array(
+        'title'       => 'Startup Lab - illustration',
+        'description' => 'Startup Lab standardises the process for entrepreneurs to create & build their business ideas. I worked on creating an identity that reflected this and the client's needs to put forward his ideas through simplistic but engaging design.',
+        'link'        => 'https://www.behance.net/gallery/38063921/Startup-Lab-logo-website-and-illustrations',
+        'link_text'   => 'See more on Behance',
+        'image'       => 'img/entre.png'
+      ),
+      array(
         'title'       => 'Travel illustration series - Asia, the letter H',
         'description' => 'As part of my 100 day project while in HK and Vietnam, as seen on instagram.com/laurenlopatko.',
         'link'        => 'https://www.behance.net/gallery/37468347/Asian-travel-series-the-letter-H?',
